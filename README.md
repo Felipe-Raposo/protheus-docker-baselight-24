@@ -1,4 +1,4 @@
-# Protheus Docker Base 24
+# Protheus Docker Base 24.x.y.z (Onça Preta)
 
 Imagem Docker base para execução do **TOTVS Protheus 12** (AppServer) em ambiente containerizado.
 
