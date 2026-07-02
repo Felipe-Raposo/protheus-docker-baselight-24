@@ -5,4 +5,7 @@ RUN microdnf -y update && \
     microdnf clean all && \
     rm -rf /var/cache/yum
 COPY ./root/ /
+RUN cd /protheus12/bin/ && \
+	tar -xvf appserver.tar.xz && \
+	rm appserver.tar.xz
 CMD ["/protheus.sh"]

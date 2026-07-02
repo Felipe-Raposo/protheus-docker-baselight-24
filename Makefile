@@ -1,14 +1,14 @@
 export DOCKER_BUILDKIT := 1
 
 IMAGE_REPO := feliperaposo
-NAME := $(IMAGE_REPO)/protheus-base
+NAME := $(IMAGE_REPO)/protheus-baselight
 VERSION := 24
 MINOR_VERSION := 24.3.1.5
 
 .PHONY: build release release_latest
 
 build:
-	docker image build -t $(NAME):$(VERSION) -t $(NAME):$(MINOR_VERSION) -t $(NAME):latest .
+	docker image build --platform=linux/amd64 -t $(NAME):$(VERSION) -t $(NAME):$(MINOR_VERSION) -t $(NAME):latest .
 
 release: build
 	docker image push $(NAME):$(VERSION)
