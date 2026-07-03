@@ -1,4 +1,4 @@
-# Protheus Docker Base 24.x.y.z (Onça Preta)
+# Protheus Docker Baselight 24.x.y.z (Onça Preta)
 
 Imagem Docker base para execução do **TOTVS Protheus 12** (AppServer) em ambiente containerizado.
 
@@ -39,9 +39,9 @@ make release_latest
 
 Gera as tags:
 
-- `feliperaposo/protheus-base:24`
-- `feliperaposo/protheus-base:24.x.y.z`
-- `feliperaposo/protheus-base:latest`
+- `feliperaposo/protheus-docker-baselight:24`
+- `feliperaposo/protheus-docker-baselight:24.3.1.5`
+- `feliperaposo/protheus-docker-baselight:latest`
 
 ## Estrutura interna (referência)
 
