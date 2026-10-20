@@ -3,7 +3,7 @@ export DOCKER_BUILDKIT := 1
 IMAGE_REPO := feliperaposo
 NAME := $(IMAGE_REPO)/protheus-docker-baselight
 VERSION := 24
-MINOR_VERSION := 24.3.1.5
+MINOR_VERSION := 24.3.1.9
 
 .PHONY: build release release_latest
 
